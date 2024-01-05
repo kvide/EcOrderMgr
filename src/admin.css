@@ -1,0 +1,26 @@
+/* css for orders module admin */
+.orders_visible {
+  display: block;
+}
+
+.orders_hidden {
+  display: none;
+}
+
+.orders_doexpand {
+  text_decoration: underline;
+  width: 20em;
+  padding-bottom: 0.3em;
+  background: transparent url('https://upload.wikimedia.org/wikipedia/commons/b/bc/Bullet_toggle_plus.png') no-repeat left;
+}
+
+.orders_docollapse {
+  text_decoration: none;
+  width: 20em;
+  padding-bottom: 0.3em;
+  background: transparent url('https://upload.wikimedia.org/wikipedia/commons/9/93/Bullet_toggle_minus.png') no-repeat left;
+}
+
+.print_pageheader {
+  border: 1px solid #000;
+}

@@ -1,0 +1,11 @@
+# This is for Eclipse with nested projects and remote sync.
+# Your mileage may vary
+
+/.settings
+/.ptp-sync/
+.ptp-sync-folder
+.project
+.buildpath
+
+/src/.ptp-sync/
+/src/.settings/
