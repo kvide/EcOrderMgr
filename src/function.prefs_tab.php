@@ -58,7 +58,7 @@ $ssl_opts = array(
     $this->Lang('yes') . '&nbsp;&nbsp;' => 1,
     $this->Lang('no') . '&nbsp;&nbsp;' => 0
 );
-$tmp = \module_helper::get_modules_with_capability('payment_gateway', array('baseversion' => '0.98.0'));
+$tmp = $this->GetModulesWithCapability('payment_gateway', array('baseversion' => '0.98.0'));
 $ccprocessing_modules = [-1 => $this->Lang('none')];
 if ($tmp)
 {
